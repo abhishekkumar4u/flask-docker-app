@@ -15,13 +15,13 @@ This is a simple Python Flask web application, containerized using Docker, and d
 - Docker
 - AWS EC2 instance (Ubuntu or Amazon Linux 2)
 
-**## 📁 **Project Structure****
+**## 📁 Project Structure**
 
 flask-docker-app/
-├── app.py
-├── requirements.txt
-├── Dockerfile
-└── README.md
+    app.py
+    requirements.txt
+    Dockerfile
+    README.md
 
 
 **## 📦** Build and Run Locally****
@@ -32,7 +32,7 @@ docker run -p 5000:5000 flask-app
 
 Access the app at **http://localhost:5000**
 
-☁️ **Deploy on AWS EC2**
+**☁️ Deploy on AWS EC2**
 1. Launch an EC2 instance
 2. SSH into the instance and install Docker
 3. Clone this repo or create the files directly
