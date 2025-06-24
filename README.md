@@ -26,17 +26,16 @@ flask-docker-app/
 
 **## 📦** Build and Run Locally****
 
-```bash
 docker build -t flask-app .
 docker run -p 5000:5000 flask-app
 
-Access the app at **http://localhost:5000**
+Access the app at http://localhost:5000
 
-**☁️ Deploy on AWS EC2**
+☁️ Deploy on AWS EC2
 1. Launch an EC2 instance
 2. SSH into the instance and install Docker
 3. Clone this repo or create the files directly
 4. Run:
         docker build -t flask-app .
         docker run -d -p 5000:5000 flask-app
-5. Visit: **http://<your-ec2-public-ip>:5000**
+5. Visit: http://<your-ec2-public-ip>:5000
